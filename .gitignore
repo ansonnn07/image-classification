@@ -1,0 +1,13 @@
+__pycache__
+
+# skip large weights file
+*.pt
+*.tar*
+*.rar
+
+# skip notebook checkpoints
+.ipynb_checkpoints
+.virtual_documents
+
+# skip dataset images
+/dataset
