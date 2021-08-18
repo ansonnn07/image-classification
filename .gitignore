@@ -4,6 +4,8 @@ __pycache__
 *.pt
 *.tar*
 *.rar
+*.h5
+*.model
 
 # skip notebook checkpoints
 .ipynb_checkpoints
