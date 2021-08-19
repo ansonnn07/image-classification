@@ -17,8 +17,30 @@ You may also download the datasets used in this repository from the links below:
 # Package Installation
 NOTE: It is assumed that you have installed Anaconda in your machine and know how to create virtual environments on your own.
 
-You only need to install the required packages mentioned inside the `requirements.txt` file.
+Run the following command in your Anaconda prompt (Anaconda's terminal or your terminal of choice) to create a virtual environment named `tensorflow` with Python version 3.8 installed:
 ```
-pip install -r requirements.txt
+conda create --name tensorflow python=3.8
 ```
-But to use TensorFlow with GPU support on your local machine, you will need to refer to this [YouTube video tutorial](https://youtu.be/hHWkvEcDBO0) for further instructions as this is a very error-prone process.
+Then remember to activate the environment with the command below every time you open up a new terminal before proceeding.
+```
+conda activate tensorflow
+```
+
+For the purpose of using TensorFlow with GPU on your local machine, please refer to [this YouTube video](https://youtu.be/hHWkvEcDBO0) for complete instructions on how to install the dependencies (CUDA, cuDNN for TensorFlow GPU support). Beware that this is a very tedious and error-prone process, if there is any error, please don't hesitate to ask for help.
+
+After installing TensorFlow, you may proceed to install the rest of the packages with the command below (assuming that your terminal is already inside this repo's directory):
+```
+pip install --no-cache-dir -r requirements.txt
+```
+
+After installing the packages, create a **Jupyter kernel** to be selected in Jupyter Notebook/Lab with this command:
+```
+python -m ipykernel install --user --name tensorflow --display-name "tensorflow"
+```
+
+Also run this to update the `ipykernel` to avoid some errors.
+```
+conda install ipykernel --update-deps --force-reinstall
+```
+
+NOTE: But to use TensorFlow with GPU support on your local machine, you will need to refer to this [YouTube video tutorial](https://youtu.be/hHWkvEcDBO0) for further instructions as this is a very error-prone process.
