@@ -10,6 +10,10 @@ These three notebooks contain very detailed explanations and comments to guide y
 
 This project also assumes that you already have some knowledge about deep learning with computer vision, especially the fundamental knowledge of convolutional neural networks. Otherwise, you would have a hard time understanding what is happening under the hood with the code in the notebooks.
 
+You may also download the datasets used in this repository from the links below:
+1. Sign Language (Gesture) Recognition: [Google Drive Link](https://drive.google.com/file/d/1EAcId2AJefByuUvDAL_6Ee5QdWo-ABSd/view?usp=sharing)
+2. Skin Cancer Classification: [Kaggle Link](https://www.kaggle.com/fanconic/skin-cancer-malignant-vs-benign)
+
 # Package Installation
 NOTE: It is assumed that you have installed Anaconda in your machine and know how to create virtual environments on your own.
 
