@@ -3,3 +3,5 @@ opencv-contrib-python
 matplotlib
 imutils
 tensorflow
+seaborn
+sklearn
