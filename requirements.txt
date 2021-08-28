@@ -1,4 +1,5 @@
 numpy
+jupyterlab
 opencv-contrib-python
 matplotlib
 imutils
